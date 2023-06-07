@@ -13,7 +13,7 @@ class Calculator
 	Scanner r = new Scanner(System.in);
 	n1=r.nextInt();
 	n2=r.nextInt();
-	System.out.print("Select the operation : 1-Addition 2-Subtraction 3-Multiplication 4-Division");
+	System.out.print("Select the operation : 1-Addition 2-Subtraction 3-Multiplicationn 4-Division");
 	op=r.nextInt();
 	if (op==1){
 		cal=n1+n2;
